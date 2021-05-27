@@ -67,7 +67,7 @@ pvs-studio-analyzer analyze -o /path/to/project.log -e /path/to/exclude-path -j<
 plog-converter -a GA:1,2 -t tasklist -o /path/to/project.tasks /path/to/project.log
 ```
 
-### Description-of-examples
+### Description of examples
 - [example-01](example-1) Analysis of a simple project containing one file.
 - [example-02](example-2) Analysis of a simple project with a library connection
 - [example-03](example-3) Analyzing a project with build subdirectories
