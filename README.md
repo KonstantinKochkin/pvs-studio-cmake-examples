@@ -1,6 +1,6 @@
 # Examples of PVS-Studio integration in CMake (CLion/QtCreator)
 
-[Analysis without integration](#Analysis-without-integration)
+[Description of examples](#Description-of-examples)
 
 PVS-Studio CMake module (**PVS-Studio.cmake**) can be used to integrate [PVS-Studio](https://www.viva64.com/en/pvs-studio/) analysis into CMake-based C and C++ cross-platform projects under Linux, Windows and macOS. This integration is generally build-system independent, however, several specific options work only under certain CMake generators. You can also use build-system specific analyzer integration (for example, PVS-Studio_Cmd for MSBuild projects under Windows), or integrate the analyzer directly into a build system.
 
@@ -66,3 +66,18 @@ The analysis starts by the following commands:
 pvs-studio-analyzer analyze -o /path/to/project.log -e /path/to/exclude-path -j<N>
 plog-converter -a GA:1,2 -t tasklist -o /path/to/project.tasks /path/to/project.log
 ```
+
+### Description-of-examples
+example-01 One file
+example-02 Library connection
+example-03 Including subdirectory
+example-04 Recursive analyze
+example-05 Tasklist report format
+example-06 Multi project
+example-07 Analyze with compile_commands.json
+example-08 Suppressing analyzer warnings
+example-09 Using pvs-studio config file and DEPENDS variable
+example-10 Using pvs-studio-analyzer flags
+example-11 Selection of several groups of diagnostics
+example-12 Analyzing source files
+example-13 Using plog-converter flags
