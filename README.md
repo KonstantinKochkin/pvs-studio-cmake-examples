@@ -1,5 +1,7 @@
 # Examples of PVS-Studio integration in CMake (CLion/QtCreator)
 
+[Analysis without integration](#Analysis-without-integration)
+
 PVS-Studio CMake module (**PVS-Studio.cmake**) can be used to integrate [PVS-Studio](https://www.viva64.com/en/pvs-studio/) analysis into CMake-based C and C++ cross-platform projects under Linux, Windows and macOS. This integration is generally build-system independent, however, several specific options work only under certain CMake generators. You can also use build-system specific analyzer integration (for example, PVS-Studio_Cmd for MSBuild projects under Windows), or integrate the analyzer directly into a build system.
 
 A few examples in this repository will help you to learn how to use the PVS-Studio CMake module in your **CMakeLists.txt** properly. 
