@@ -68,7 +68,7 @@ plog-converter -a GA:1,2 -t tasklist -o /path/to/project.tasks /path/to/project.
 ```
 
 ### Description-of-examples
-[example-01](./example-01) Analysis of a simple project containing one file.
+[example-01](pvs-studio-cmake-examples/example-01) Analysis of a simple project containing one file.
 example-02 Analysis of a simple project with a library connection
 example-03 Analyzing a project with build subdirectories
 example-04 Analyzing a project and its dependencies
